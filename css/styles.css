@@ -16,6 +16,14 @@ header {
     position: relative;
 }
 
+main {
+    margin: auto;
+}
+
+section {
+    
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -51,6 +59,10 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-section {
+    padding-top: 70px;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -74,10 +86,24 @@ ul>li {
     display: inline-block;
 }
 
+.text-section h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 ul.menu-comandi li {
     margin-right: 20px;
     font-size: 12px;
     vertical-align: bottom;
+}
+
+div img {
+    max-width: 500px;
+    margin-bottom: 300px;
+}
+
+#main-container {
+    width: 70%;
 }
 
 #logo {
@@ -107,4 +133,23 @@ ul.menu-comandi li {
     border: none;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+}
+
+#first-section {
+    position: relative;
+    height: 400px;
+    margin-bottom: 300px;
+}
+
+#second-section {
+    position: relative;
+    height: 400px;
+}
+
+#first-section-img {
+    padding-top: 50px;
+}
+
+#second-section-img {
+    
 }
