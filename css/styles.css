@@ -69,6 +69,10 @@ header {
     color: white;
 }
 
+.light-blue {
+    background-color: rgb(145, 180, 202);
+}
+
 ul>li {
     list-style-type: none;
     display: inline-block;
@@ -83,6 +87,13 @@ ul.menu-comandi li {
 .column {
     height: 450px;
     padding: 60px 150px;
+}
+
+.column h1 {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 20px 0;
 }
 
 .column img {
@@ -105,11 +116,36 @@ ul.menu-comandi li {
     margin-left: 150px;
 }
 
-.column h1 {
-    font-size: 2em;
+.section-video h1 {
     font-weight: bold;
-    line-height: 35px;
-    margin: 20px 0;
+    margin-bottom: 20px;
+}
+
+.section-video-text {
+    text-align: center;
+    width: 65%;
+    margin-bottom: 35px;
+}
+
+.section-video-img{
+    width: 100%;
+}
+
+.section-video-img img {
+    max-width: 800px;
+    margin: 0 150px;
+}
+
+.section-video-h2 {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.section-video-footer {
+    text-align: center;
 }
 
 #logo {
