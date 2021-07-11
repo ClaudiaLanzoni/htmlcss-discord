@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-size: 14px;
 }
 
 header {
@@ -16,16 +16,8 @@ header {
     position: relative;
 }
 
-main {
-    margin: auto;
-}
-
-section {
-    
-}
-
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -59,10 +51,6 @@ section {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-section {
-    padding-top: 70px;
-}
-
 .clearfix:after {
     content: "";
     display: table;
@@ -86,24 +74,42 @@ ul>li {
     display: inline-block;
 }
 
-.text-section h1 {
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
 ul.menu-comandi li {
     margin-right: 20px;
     font-size: 12px;
     vertical-align: bottom;
 }
 
-div img {
-    max-width: 500px;
-    margin-bottom: 300px;
+.column {
+    height: 450px;
+    padding: 60px 150px;
 }
 
-#main-container {
-    width: 70%;
+.column img {
+    max-width: 450px;
+}
+
+.section-text {
+    width: 30%;
+    height: 100%;
+}
+
+.section-canale-tematico-img,
+.section-canale-community-img {
+    width: 50%;
+    margin-right: 150px;
+}
+
+.section-canale-vocale-img {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.column h1 {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 20px 0;
 }
 
 #logo {
@@ -118,7 +124,6 @@ div img {
 #header-p {
     margin-bottom: 20px;
     line-height: 25px;
-    font-size: 13px;
 }
 
 #button-discord {
@@ -133,23 +138,4 @@ div img {
     border: none;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-}
-
-#first-section {
-    position: relative;
-    height: 400px;
-    margin-bottom: 300px;
-}
-
-#second-section {
-    position: relative;
-    height: 400px;
-}
-
-#first-section-img {
-    padding-top: 50px;
-}
-
-#second-section-img {
-    
 }
